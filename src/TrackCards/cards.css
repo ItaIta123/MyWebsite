@@ -1,0 +1,40 @@
+/* Card attributes: */
+.card {
+  width: 40rem;
+  height: 80rem;
+  background-color: "#2b2b2b";
+  transform: scale(0.9);
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(15, 15, 15, 0.972) !important;
+}
+
+.card-body {
+  padding: 0.5rem 0 !important;
+}
+
+/* text attributes: */
+.card-text {
+  font-size: 0.9rem;
+  padding: 0.4rem 1.9rem;
+}
+
+.container-fluid.row {
+  padding-top: 6rem;
+}
+.overflow {
+  overflow: hidden;
+}
+
+/* Images attributes: */
+.card-img-top {
+  height: 50rem;
+  width: 70rem;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.8);
+}
