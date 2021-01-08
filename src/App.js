@@ -13,6 +13,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        {/* Helps Deal witht he changed scales when opening the website with an iphone: */}
+        <meta
+          name="viewport"
+          content="width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no"
+        ></meta>
+
         <Header resumeData={resumeData} />
         <About resumeData={resumeData} />
         <Projects />

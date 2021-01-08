@@ -1,5 +1,9 @@
 /****************** PROJECTS CSS *******************/
-
+html,
+body {
+  max-width: 200%;
+  overflow-x: hidden;
+}
 .projects {
   background: #191919;
   padding-top: 96px;
@@ -14,9 +18,23 @@
   align-items: center;
   flex-direction: column;
   border-bottom: 5px solid #f06000;
-  border-bottom-left-radius: 3rem;
-  border-bottom-right-radius: 3rem;
   padding-bottom: 1rem;
+}
+
+@media (max-width: 810px) {
+  .projectsSectionTitle {
+    flex-direction: column !important ;
+    justify-content: space-around !important;
+  }
+}
+
+.projectPageTitle {
+}
+
+@media (max-width: 810px) {
+  .projectPageTitle {
+    font-size: x-large;
+  }
 }
 
 .projectsRow1 {
@@ -26,9 +44,10 @@
   padding-top: 10rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .projectsRow1 {
     flex-direction: column !important ;
+    justify-content: space-around !important;
   }
 }
 
@@ -39,9 +58,10 @@
   padding-top: 10rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .projectsRow2 {
     flex-direction: column !important ;
+    justify-content: space-around !important;
   }
 }
 
@@ -52,13 +72,18 @@
   /* align-items: center; */
   flex-direction: column;
 }
+
+@media (max-width: 810px) {
+  .aboutSec {
+    transform: scale(1);
+  }
+}
+
 .aboutSectionTitle {
   display: flex;
   align-items: center;
   flex-direction: column;
   border-bottom: 5px solid #f06000;
-  border-bottom-left-radius: 3rem;
-  border-bottom-right-radius: 3rem;
   padding-bottom: 2rem;
 }
 .aboutRow {
@@ -69,7 +94,7 @@
   /* padding-left: 15rem; */
   padding-top: 10rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .aboutRow {
     flex-direction: column !important ;
   }
@@ -108,7 +133,7 @@
   width: 70rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .aboutcontent {
     font-size: medium !important;
     width: 30rem !important;
@@ -128,7 +153,7 @@
 .videoTitle {
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .videoTitle {
     font-size: medium !important;
     width: 30rem !important;
@@ -139,7 +164,7 @@
   /* border-radius: 12px; */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .video {
     width: 35rem !important;
     height: 30rem !important;
@@ -152,8 +177,6 @@
   align-items: center;
   flex-direction: column;
   border-bottom: 5px solid #f06000;
-  border-bottom-left-radius: 3rem;
-  border-bottom-right-radius: 3rem;
   padding-bottom: 1rem;
 }
 
@@ -164,15 +187,13 @@
   align-items: center;
   flex-direction: column;
   border-bottom: 5px solid #f06000;
-  border-bottom-left-radius: 3rem;
-  border-bottom-right-radius: 3rem;
 }
 
 .proverb {
   padding-top: 3rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .proverb {
     display: none !important ;
   }
@@ -198,6 +219,12 @@
   font-family: sans-serif;
   padding-top: 3rem;
   padding-bottom: 5rem;
+}
+
+@media (max-width: 810px) {
+  .text {
+    font-size: medium !important;
+  }
 }
 
 .bigButton {
@@ -235,7 +262,7 @@
   z-index: -1 !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .tsparticles-canvas-el {
     display: none !important ;
   }

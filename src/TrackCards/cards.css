@@ -1,3 +1,9 @@
+html,
+body {
+  max-width: 200%;
+  overflow-x: hidden;
+}
+
 /*** PAGE STYLING ***/
 .trackProtfolio {
   display: flex;
@@ -40,8 +46,20 @@
   transform: scale(0.9);
 }
 
+@media (max-width: 768px) {
+  .card {
+    width: 32rem !important;
+  }
+}
+
 .card:hover {
   box-shadow: 5px 10px 20px 1px rgba(15, 15, 15, 0.972) !important;
+}
+
+@media (max-width: 768px) {
+  .card:hover {
+    box-shadow: none;
+  }
 }
 
 .card-body {
