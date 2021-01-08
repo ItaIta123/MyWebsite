@@ -1,0 +1,249 @@
+/****************** PROJECTS CSS *******************/
+
+.projects {
+  background: #191919;
+  padding-top: 96px;
+  padding-bottom: 102px;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.projectsSectionTitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px solid #f06000;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  padding-bottom: 1rem;
+}
+
+.projectsRow1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around !important;
+  padding-top: 10rem;
+}
+
+@media (max-width: 768px) {
+  .projectsRow1 {
+    flex-direction: column !important ;
+  }
+}
+
+.projectsRow2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around !important;
+  padding-top: 10rem;
+}
+
+@media (max-width: 768px) {
+  .projectsRow2 {
+    flex-direction: column !important ;
+  }
+}
+
+/****************** ABOUT CSS *******************/
+
+.aboutSec {
+  /* display: flex; */
+  /* align-items: center; */
+  flex-direction: column;
+}
+.aboutSectionTitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px solid #f06000;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  padding-bottom: 2rem;
+}
+.aboutRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* padding-left: 15rem; */
+  padding-top: 10rem;
+}
+@media (max-width: 768px) {
+  .aboutRow {
+    flex-direction: column !important ;
+  }
+}
+
+.bottomBorderLineWrapper {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 8rem;
+  height: 4px;
+  width: 80%;
+}
+
+.bottomBorderLine {
+  height: 1px;
+  border-bottom: 1px solid #0f0f0f;
+  opacity: 40%;
+}
+
+.profilePic {
+  width: 270px;
+  height: 270px;
+  border-radius: 100%;
+}
+
+.aboutText {
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+.aboutTitle {
+}
+
+.aboutcontent {
+  padding-top: 1rem;
+  width: 70rem;
+}
+
+@media (max-width: 768px) {
+  .aboutcontent {
+    font-size: medium !important;
+    width: 30rem !important;
+  }
+}
+
+.videowrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5rem;
+  /* padding-left: 20rem; */
+  padding-bottom: 5rem;
+}
+
+.videoTitle {
+}
+
+@media (max-width: 768px) {
+  .videoTitle {
+    font-size: medium !important;
+    width: 30rem !important;
+  }
+}
+
+.video {
+  /* border-radius: 12px; */
+}
+
+@media (max-width: 768px) {
+  .video {
+    width: 35rem !important;
+    height: 30rem !important;
+  }
+}
+
+/****************** RESUME CSS *******************/
+.resumeSectionTitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px solid #f06000;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  padding-bottom: 1rem;
+}
+
+/****************** TRACK CSS *******************/
+
+.trackSectionTitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px solid #f06000;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+.proverb {
+  padding-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .proverb {
+    display: none !important ;
+  }
+}
+
+/****************** CONTACT CSS *******************/
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 14rem;
+  /* position: absolute; */
+  z-index: 1;
+}
+
+.title {
+  font-family: "opensans-bold";
+  padding-top: 6rem;
+}
+
+.text {
+  font-family: sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.bigButton {
+  color: #cc5200;
+  background-color: transparent;
+  border: 3px solid #cc5200;
+  border-radius: 8px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1;
+  width: 250px;
+  cursor: pointer;
+  font-family: opensans-bold;
+  transition: transform 0.8s ease;
+}
+.bigButton:hover {
+  background-color: #191919;
+  opacity: 70%;
+  transition: background-color 0.5s ease;
+  z-index: 2;
+  transform: scale(1.3);
+  transition: transform 0.8s ease;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 70vh;
+  width: 180vh;
+  padding-top: 67px;
+
+  z-index: -1 !important;
+}
+
+@media (max-width: 768px) {
+  .tsparticles-canvas-el {
+    display: none !important ;
+  }
+}
+
+/* .particaleswrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+} */

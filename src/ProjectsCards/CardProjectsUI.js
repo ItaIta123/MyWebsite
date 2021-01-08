@@ -6,38 +6,71 @@ const Card = (props) => {
       <div className="overflow">
         <a href={props.projecturl}>
           <img
-            src={props.imgsrc}
-            alt="HurdlesPhotos"
             className="cardProject-img-top"
+            src={props.imgsrc}
+            alt="ProjectPhoto"
           />
         </a>
       </div>
+      <div className="bottomBorderLineWrapper">
+        <p className="bottomBorderLine"></p>
+      </div>
       <div className="cardProject-body text-light">
-        {/* <h4
+        <h4
           className="cardProject-title"
           style={{
             fontFamily: "opensans-bold",
-            color: "#C1BEBB",
-            fontSize: 25,
+            color: "black",
+            fontSize: 14,
+            padding: 8,
           }}
         >
           {props.title}
-        </h4> */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "stretch",
-          }}
-        >
-          <p>{props.icon1}</p>
-          <p>{props.icon2}</p>
-          <p>{props.icon3}</p>
-          <p>{props.icon4}</p>
-          <p>{props.icon5}</p>
-          <p>
+        </h4>
+        <div className="bottomBorderLineWrapper">
+          <p className="bottomBorderLine"></p>
+        </div>
+        <div>
+          <div
+            className="iconsRow1"
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-around",
+              alignItems: "center",
+            }}
+          >
+            <p>{props.icon1}</p>
+            <p>{props.icon2}</p>
+            <p>{props.icon3}</p>
+          </div>
+          <div
+            className="iconsRow2"
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "space-around",
+            }}
+          >
+            <p>{props.icon4}</p>
+            <p>{props.icon5}</p>
+          </div>
+          <div
+            className="iconsRow2"
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <p>{props.icon6}</p>
+          </div>
+
+          {/* <p>
             <img src={props.codeimgsrc} alt="project" />
-          </p>
+          </p> */}
         </div>
         {/* <p
           className="cardProject-text text-secondary"

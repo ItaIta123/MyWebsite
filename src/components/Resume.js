@@ -2,12 +2,24 @@ import React, { Component } from "react";
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
+
     return (
       <section id="resume">
+        <div className="resumeSectionTitle">
+          <h1
+            style={{
+              fontFamily: "opensans-bold",
+              fontSize: 50,
+              color: "black",
+            }}
+          >
+            <span>Resume</span>
+          </h1>
+        </div>
         <div className="row education">
           <div className="three columns header-col">
             <h1>
-              <span>Education</span>
+              <span style={{ fontSize: 20 }}>Education</span>
             </h1>
           </div>
 
@@ -17,15 +29,20 @@ export default class Resume extends Component {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
-                      <h3 style={{ fontSize: 25 }}>{item.UniversityName}</h3>
+                      <h3 style={{ fontSize: 30 }}>{item.UniversityName}</h3>
                       <p className="info" style={{ color: "#232425" }}>
                         {item.specialization}
                         {/* <span>&bull;</span>{" "} */}
-                        <em className="date" style={{ color: "#232425" }}>
+                        <em
+                          className="date"
+                          style={{ color: "#232425", fontSize: 18 }}
+                        >
                           {item.MonthOfPassing} {item.YearOfPassing}
                         </em>
                       </p>
-                      <p style={{ color: "#232425" }}>{item.Achievements}</p>
+                      <p style={{ color: "#232425", fontSize: 18 }}>
+                        {item.Achievements}
+                      </p>
                     </div>
                   </div>
                 );
@@ -64,10 +81,9 @@ export default class Resume extends Component {
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
-              <span>Skills</span>
+              <span style={{ fontSize: 20 }}>Skills</span>
             </h1>
           </div>
-
           <div className="nine columns main-col">
             <p>{resumeData.skillsDescription}</p>
 

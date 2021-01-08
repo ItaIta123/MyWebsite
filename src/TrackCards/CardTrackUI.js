@@ -9,12 +9,17 @@ const Card = (props) => {
         <h4
           className="card-title"
           style={{
-            fontFamily: "librebaskerville-italic",
+            fontFamily: "opensans-bold",
             color: "#C1BEBB",
             fontSize: 25,
           }}
         >
           {props.title}
+        </h4>
+        <h4 className="card-title" style={{ fontSize: 25 }}>
+          <span role="img" aria-label="trophy">
+            🏆
+          </span>
         </h4>
         <p
           className="card-text text-secondary"

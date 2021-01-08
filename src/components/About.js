@@ -1,27 +1,92 @@
 import React, { Component } from "react";
-import Card from "../ProjectsCards/CardProjectsUI";
+import ReactPlayer from "react-player";
+import "../myLayout.css";
 import "../ProjectsCards/projectcards.css";
-import tracker from "../ProjectsCards/projects-cards-img/tracker.png";
-import spotify from "../ProjectsCards/projects-cards-img/spotifylyrics.png";
-import karen from "../ProjectsCards/projects-cards-img/karen.png";
-import personalWebsite from "../ProjectsCards/projects-cards-img/personalWebsite.png";
-import icons from "../ProjectsCards/programingIcons";
-import scrapy from "../ProjectsCards/projects-cards-img/scrapy.png";
-import selenium from "../ProjectsCards/projects-cards-img/selenium.png";
-import insta from "../ProjectsCards/projects-cards-img/insta.png";
 
 export default class About extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    // let resumeData = this.props.resumeData;
     return (
       <section id="about">
+        <section className="aboutSec">
+          <div className="aboutSectionTitle">
+            <h5
+              style={{
+                fontFamily: "opensans-bold",
+                fontSize: 50,
+                color: "white",
+              }}
+            >
+              <span>About Me</span>
+            </h5>
+          </div>
+          <div className="aboutRow">
+            <img
+              className="profilePic"
+              src="images/profilepic.jpg"
+              alt="profilePic"
+            />
+            <div className="aboutText">
+              {/* <p
+                className="aboutTitle"
+                style={{
+                  fontFamily: "opensans-bold",
+                  fontSize: 50,
+                  color: "white",
+                }}
+              >
+                About Me
+              </p> */}
+              <p
+                className="aboutcontent"
+                style={{ fontSize: 28, color: "#CACADA" }}
+              >
+                My name is Itamar Fayler. I am an aspiring Software Engineer
+                majoring in Computer Science and Economics at Yale University. I
+                am currently exploring my interests in a number of topics
+                including Software engineering, Data Science, Machine Learning,
+                and App Development. In addition, I am also a professional
+                athlete, representing Yale University in the Sprint Hurdles
+                events.
+              </p>
+            </div>
+          </div>
+          {/* <div className="bottomBorderLineWrapper">
+            <p className="bottomBorderLine"></p>
+          </div> */}
+          <div className="videowrapper">
+            <p
+              className="videoTitle"
+              style={{
+                fontSize: 23,
+                color: "#CACADA",
+                width: 1000,
+                textAlign: "center",
+              }}
+            >
+              Here is a video of me clearing some 42 inches (107 cm) obstacles
+              on my way to break the Maccabiah games 110 meters hurdles record
+              (second from the left)
+            </p>
+            <ReactPlayer
+              className="video"
+              url="https://www.youtube.com/watch?v=X9sLPu-bxWE"
+              controls={true}
+              volume={0.09}
+            />
+          </div>
+        </section>
+
+        {/* <section className="aboutSection">
+          <div className="Text"></div>
+        </section>
+
         <div className="row">
           <div className="three columns">
             <img
               className="profile-pic"
               src="images/profilepic.jpg"
               alt="profilePic"
-              style={{ marginTop: 10 }}
             />
           </div>
 
@@ -40,6 +105,13 @@ export default class About extends Component {
             >
               {resumeData.aboutme}
             </p>
+
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=X9sLPu-bxWE"
+              controls={true}
+              volume={0.1}
+            />
+
             <div
               className="container-fluid d-flex justify-content-center"
               style={{
@@ -92,9 +164,9 @@ export default class About extends Component {
                   />
                 </div>
               </div>
-            </div>
-            {/* /************ SECOND ROW  **************/}
-            <div
+            </div> */}
+        {/* /************ SECOND ROW  **************/}
+        {/* <div
               className="container-fluid d-flex justify-content-center"
               style={{
                 display: "flex",
@@ -132,64 +204,10 @@ export default class About extends Component {
                   />
                 </div>
               </div>
-            </div>
-            {/* <div
-              className="container-fluid d-flex justify-content-center"
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "center",
-                marginRight: 179,
-                marginTop: 80,
-              }}
-            >
-              <div
-                className="row"
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                }}
-              >
-                <div className="col-md-4" style={{ marginRight: 50 }}>
-                  <Card
-                    imgsrc={wj}
-                    title="World Junior Championships (Bydgoszcz 2016)"
-                    text="Throughout my career I achived the minimun time for major international championships such as the Youth Summer Olympic Festival (2013), European Junior Championships (2015), and the World Junior Championships (2016)."
-                  />
-                </div>
-                <div className="col-md-4" style={{ marginRight: 50 }}>
-                  <Card
-                    imgsrc={BW}
-                    title="The 20th Maccabiah Games (Jerusalem 2017)"
-                    text="I am the current Maccabiah Games record holder in the 110 meters hurdles event (14.25s.)"
-                  />
-                </div>
-                <div className="col-md-4" style={{ marginRight: 50 }}>
-                  <Card
-                    imgsrc={yale}
-                    title="Harvard-Yale-Princeton Meet (Connecticut 2020)"
-                    text="Division-1 student athlete representing Yale University in the Sprint Hurdles event."
-                  />
-                </div>
-              </div>
             </div> */}
 
-            {/* <p style={{ marginTop: 400 }}></p> */}
-
-            {/* <div className="row">
-              <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>{resumeData.name}</span>
-                  <br></br>
-                  <span>{resumeData.address}</span>
-                  <br></br>
-                  <span>{resumeData.website}</span>
-                </p>
-              </div>
-            </div> */}
-          </div>
-        </div>
+        {/* </div>
+        </div> */}
       </section>
     );
   }

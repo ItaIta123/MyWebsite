@@ -26,7 +26,7 @@ let resumeData = {
     },
   ],
   aboutme:
-    "My name is Itamar Fyler. I am an aspiring Software Engineer majoring in Computer Science and Economics at Yale University. I am cuurently exploring my interests in number of topics including Sowftware engeneering, Data Science, Machine Learning, and App Development. In addition, I am also a professional athlete, representing Yale University in the Sprint Hurdles evets.",
+    "My name is Itamar Fyler. I am an aspiring Software Engineer majoring in Computer Science and Economics at Yale University.  I'm cuurently exploring my interests in number of topics including Sowftware engeneering, Data Science, Machine Learning, and App Development. In addition, I am also a professional athlete, representing Yale University in the Sprint Hurdles evets.",
 
   education: [
     {
@@ -71,7 +71,13 @@ let resumeData = {
       skillname: "JavaScript (ES10)",
     },
     {
-      skillname: "Reactjs",
+      skillname: "R",
+    },
+    {
+      skillname: "C",
+    },
+    {
+      skillname: "React",
     },
     {
       skillname: "React Native",

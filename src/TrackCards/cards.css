@@ -1,8 +1,42 @@
+/*** PAGE STYLING ***/
+.trackProtfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* makes empty area outside of the page: */
+  /* padding-left: 29rem;
+  padding-right: 29rem;
+  padding-bottom: 20rem; */
+  text-align: center;
+}
+
+.proverb {
+  font: 15px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #fbfbfb;
+}
+
+.trackCards {
+  display: flex;
+  flex-direction: row;
+}
+
+/******************* PHONE ADJUSTMENT *******************/
+@media (max-width: 768px) {
+  .trackCards {
+    flex-direction: column !important ;
+  }
+}
 /* Card attributes: */
 .card {
   width: 40rem;
-  height: 80rem;
+  height: 82rem;
   background-color: "#2b2b2b";
+  border-radius: 12px;
   transform: scale(0.9);
 }
 
@@ -31,10 +65,12 @@
 .card-img-top {
   height: 50rem;
   width: 70rem;
+  border-radius: 12px;
   transform: scale(1);
   transition: transform 0.5s ease;
 }
 
 .card-img-top:hover {
-  transform: scale(1.8);
+  transform: scale(1.3);
+  border-radius: 12px;
 }
