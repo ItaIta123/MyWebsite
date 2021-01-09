@@ -42,10 +42,6 @@ header {
   overflow: hidden;
 }
 
-/* .typed-text {
-  font-size: 30;
-} */
-
 /* vertically center banner section */
 header:before {
   content: "";

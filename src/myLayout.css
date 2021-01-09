@@ -1,7 +1,7 @@
 /****************** PROJECTS CSS *******************/
 html,
 body {
-  max-width: 200%;
+  max-width: 100%;
   overflow-x: hidden;
 }
 .projects {
@@ -160,12 +160,12 @@ body {
   }
 }
 
-.video {
+.videoYoutube {
   /* border-radius: 12px; */
 }
 
 @media (max-width: 810px) {
-  .video {
+  .videoYoutube {
     width: 35rem !important;
     height: 30rem !important;
   }

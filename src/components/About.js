@@ -44,7 +44,7 @@ export default class About extends Component {
                 My name is Itamar Fayler. I am an aspiring Software Engineer
                 majoring in Computer Science and Economics at Yale University. I
                 am currently exploring my interests in a number of topics
-                including Software engineering, Data Science, Machine Learning,
+                including Software Engineering, Data Science, Machine Learning,
                 and App Development. In addition, I am also a professional
                 athlete, representing Yale University in the Sprint Hurdles
                 events.
@@ -64,13 +64,13 @@ export default class About extends Component {
                 textAlign: "center",
               }}
             >
-              Here is a video of me clearing some 42 inches (107 cm) obstacles
-              on my way to break the Maccabiah games 110 meters hurdles record
-              (second from the left)
+              Here is a video of me clearing some 42 inche (107 cm) hurdles on
+              my way to break the Maccabiah games 110 meters hurdles record
+              (second from the left).
             </p>
             <ReactPlayer
-              className="video"
-              url="https://www.youtube.com/watch?v=X9sLPu-bxWE"
+              className="videoYoutube"
+              url="https://youtu.be/X9sLPu-bxWE"
               controls={true}
               volume={0.09}
             />

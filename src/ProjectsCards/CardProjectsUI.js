@@ -26,6 +26,11 @@ const Card = (props) => {
           }}
         >
           {props.title}
+          <a href={props.sourceCode}>
+            <p className="sourceCode" style={{ color: "blue" }}>
+              Source Code
+            </p>
+          </a>
         </h4>
         <div className="bottomBorderLineWrapper">
           <p className="bottomBorderLine"></p>
