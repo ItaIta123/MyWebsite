@@ -104,7 +104,7 @@ body {
 .bottomBorderLineWrapper {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-left: 8rem;
+  padding-left: 8.5rem;
   height: 4px;
   width: 80%;
 }
@@ -131,7 +131,7 @@ body {
 }
 
 .aboutText {
-  padding-left: 3rem;
+  /* padding-left: 3rem; */
   padding-bottom: 1rem;
 }
 

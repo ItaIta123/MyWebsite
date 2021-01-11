@@ -7,7 +7,7 @@ body {
 /* Card attributes: */
 .cardProject {
   width: 40rem;
-  height: 89rem;
+  height: 95rem;
   /* background-color: "#2b2b2b"; */
   background-color: rgba(255, 255, 255, 0.972) !important;
   border-radius: 12px;

@@ -51,7 +51,7 @@ export default class Projects extends Component {
             <Card
               imgsrc={spotify}
               projecturl="https://github.com/ItaIta123/Spotify-Lyrics"
-              title="Tired of using Google to find songs lyrics? Then check out Spotify-Lyrics! Spotify-Lyrics is a Python program I developed in order to supply adequate lyrics support to Spotify's app. Integrating Spotify's API with Web scrapping, I developed a program that enables the user to listen to his/hers favorite playlists, songs, and artists all supported with lyrics!"
+              title="Tired of using Google to find songs lyrics? Then check out Spotify-Lyrics! Spotify-Lyrics is a Python program I developed in order to supply adequate lyric support to Spotify's app. Integrating Spotify's API with Web scrapping, I developed a program that enables the user to listen to his/hers favorite playlists, songs, and artists all supported with lyrics!"
               sourceCode="https://github.com/ItaIta123/Spotify-Lyrics"
               icon2={icons["python"]}
               // icon2={icons["pycharm"]}

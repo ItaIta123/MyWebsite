@@ -22,7 +22,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 48px;
+  padding-bottom: 48px;
   color: #fbfbfb;
 }
 
@@ -40,7 +40,7 @@ body {
 /* Card attributes: */
 .card {
   width: 40rem;
-  height: 82rem;
+  height: 95rem;
   background-color: "#2b2b2b";
   border-radius: 12px;
   transform: scale(0.9);
