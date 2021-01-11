@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactPlayer from "react-player";
 import "../myLayout.css";
 import "../ProjectsCards/projectcards.css";
-import profilepic from "../profilepic/profilepic.png";
+import profilepic from "../profilepic/profilepicAvatar.jpg";
 
 export default class About extends Component {
   render() {
