@@ -39,9 +39,9 @@ export default class Projects extends Component {
           >
             <Card
               imgsrc={tracker}
-              projecturl="https://github.com/ItaIta123"
+              projecturl="https://github.com/ItaIta123/TrackerApp"
               title="Can't remember the last off-road trail you drove in/hiked at? Then you must try out Tracker! Tracker is an App that records and presents information about your path. Whether you are running, hiking, or driving, Tracker will save your trail and show it on a map with valuable information such as maximum speed in M/S and K/H, and total distance traveled."
-              sourceCode="https://github.com/ItaIta123"
+              sourceCode="https://github.com/ItaIta123/TrackerApp"
               icon1={icons["mongo"]}
               icon2={icons["express"]}
               icon3={icons["nodejs"]}
@@ -51,7 +51,7 @@ export default class Projects extends Component {
             <Card
               imgsrc={spotify}
               projecturl="https://github.com/ItaIta123/Spotify-Lyrics"
-              title="Tired of using Google to find songs lyrics? Then check out Spotify-Lyrics! Spotify-Lyrics is a Python program I developed in order to supply adequate lyrics support to Spotify's app. Integrating Spotify's API with Web scrapping, I developed a program that enables the user to listen to his favorite playlists, songs, and artists all supported with lyrics!"
+              title="Tired of using Google to find songs lyrics? Then check out Spotify-Lyrics! Spotify-Lyrics is a Python program I developed in order to supply adequate lyrics support to Spotify's app. Integrating Spotify's API with Web scrapping, I developed a program that enables the user to listen to his/hers favorite playlists, songs, and artists all supported with lyrics!"
               sourceCode="https://github.com/ItaIta123/Spotify-Lyrics"
               icon2={icons["python"]}
               // icon2={icons["pycharm"]}
@@ -60,7 +60,7 @@ export default class Projects extends Component {
             <Card
               imgsrc={businessLocator}
               projecturl="https://github.com/ItaIta123/BusinessSearchApp"
-              title="Looking for a restaurant that serves your favorite food? Need new shoes? What about purchasing a new laptop? Now with the Business Locator app, you can do all that and more! Business Locator app lets you search for any business you need and show you the results already cataloged into three lists, from cheap to expensive. In addition, the app also provides valuable information such as the address, phone, and open-close hours of the business."
+              title="Looking for a restaurant that serves your favorite food? Need new shoes? What about purchasing a new laptop? Now with the Business Locator app, you can do all that and more! Business Locator app lets you search for any business you need and shows you the results already cataloged into three lists, from cheap to expensive. In addition, the app also provides valuable information such as the address, phone, and open-close hours of the business."
               sourceCode="https://github.com/ItaIta123/BusinessSearchApp"
               icon1={icons["javascript"]}
               icon2={icons["yelp"]}

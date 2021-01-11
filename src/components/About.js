@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ReactPlayer from "react-player";
 import "../myLayout.css";
 import "../ProjectsCards/projectcards.css";
+import profilepic from "../profilepic/profilepic.png";
 
 export default class About extends Component {
   render() {
@@ -21,11 +22,7 @@ export default class About extends Component {
             </h5>
           </div>
           <div className="aboutRow">
-            <img
-              className="profilePic"
-              src="images/profilepic.jpg"
-              alt="profilePic"
-            />
+            <img className="profilePic" src={profilepic} alt="profilePic" />
             <div className="aboutText">
               {/* <p
                 className="aboutTitle"
@@ -64,9 +61,9 @@ export default class About extends Component {
                 textAlign: "center",
               }}
             >
-              Here is a video of me clearing some 42 inche (107 cm) hurdles on
-              my way to break the Maccabiah games 110 meters hurdles record
-              (second from the left).
+              Here is a video of me clearing some 42 inch (107 cm) hurdles on my
+              way to break the Maccabiah games 110 meters hurdles record (second
+              from the left).
             </p>
             <ReactPlayer
               className="videoYoutube"

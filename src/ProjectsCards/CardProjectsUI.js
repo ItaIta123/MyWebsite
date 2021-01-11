@@ -28,7 +28,7 @@ const Card = (props) => {
           {props.title}
           <a href={props.sourceCode}>
             <p className="sourceCode" style={{ color: "blue" }}>
-              Source Code
+              Source Code & Video
             </p>
           </a>
         </h4>
