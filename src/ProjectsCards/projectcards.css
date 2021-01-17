@@ -11,7 +11,7 @@ body {
   /* background-color: "#2b2b2b"; */
   background-color: rgba(255, 255, 255, 0.972) !important;
   border-radius: 12px;
-  margin-bottom: 10rem;
+  padding-bottom: 10rem;
 }
 
 @media (max-width: 768px) {

@@ -47,18 +47,24 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "Some Company",
-      specialization: "Some specialization",
-      MonthOfLeaving: "Jan",
+      CompanyName: "Navigation Department",
+      specialization: "Sergeant Major",
+      MonthOfLeaving: "Aug",
       YearOfLeaving: "2018",
-      Achievements: "Some Achievements",
+      Achievements:
+        "Trained elite units’ officers for the Officer Exams. Awarded an honorable mention from the Navigation commander for achieving 98% of the officers’ excellence in the final exam.",
+      Achievements2:
+        "Training liaison of visiting U.S forces – facilitated shared training programs.",
     },
     {
-      CompanyName: "Some Company",
-      specialization: "Some specialization",
-      MonthOfLeaving: "Jan",
+      CompanyName: "Medical Services Center",
+      specialization: "Sergeant",
+      MonthOfLeaving: "September",
       YearOfLeaving: "2018",
-      Achievements: "Some Achievements",
+      Achievements:
+        "Medical supply warehouse Sergeant - managed a team of 5 soldiers.",
+      Achievements2:
+        "Tested and modified computerized medical record program for optimization.",
     },
   ],
   skillsDescription: "",

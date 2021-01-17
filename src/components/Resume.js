@@ -19,7 +19,7 @@ export default class Resume extends Component {
         <div className="row education">
           <div className="three columns header-col">
             <h1>
-              <span style={{ fontSize: 20 }}>Education</span>
+              <span style={{ fontSize: 17.2 }}>Education</span>
             </h1>
           </div>
 
@@ -49,10 +49,10 @@ export default class Resume extends Component {
               })}
           </div>
         </div>
-        {/* <div className="row work">
+        <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span>Work</span>
+              <span style={{ fontSize: 17.2 }}>Military Experience</span>
             </h1>
           </div>
 
@@ -62,26 +62,36 @@ export default class Resume extends Component {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
-                      <h3>{item.CompanyName}</h3>
-                      <p className="info">
+                      <h3 style={{ fontSize: 30 }}>{item.CompanyName}</h3>
+                      <p
+                        className="info"
+                        style={{ color: "#232425", fontSize: 18 }}
+                      >
                         {item.specialization}
                         <span>&bull;</span>{" "}
-                        <em className="date">
+                        <em
+                          className="date"
+                          style={{ color: "#232425", fontSize: 18 }}
+                        >
                           {item.MonthOfLeaving} {item.YearOfLeaving}
                         </em>
                       </p>
-                      <p>{item.Achievements}</p>
+                      <p style={{ color: "#232425", fontSize: 18 }}>
+                        {item.Achievements}
+                        <section></section>
+                        {item.Achievements2}
+                      </p>
                     </div>
                   </div>
                 );
               })}
           </div>
-        </div> */}
+        </div>
 
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
-              <span style={{ fontSize: 20 }}>Skills</span>
+              <span style={{ fontSize: 17.2 }}>Programming Skills</span>
             </h1>
           </div>
           <div className="nine columns main-col">
