@@ -23,7 +23,7 @@ export default class Projects extends Component {
                 color: "white",
               }}
             >
-              <span className="projectPageTitle">Some of My Solo Projects</span>
+              <span className="projectPageTitle">Some of My Projects</span>
             </h1>
           </div>
 

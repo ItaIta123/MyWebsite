@@ -2,7 +2,10 @@ import React from "react";
 /*********** Icons from https://devicon.dev/ ************/
 const Card = (props) => {
   return (
-    <div className="cardProject" style={{ textAlign: "center" }}>
+    <div
+      className="cardProject"
+      style={{ textAlign: "center", marginBottom: 20 }}
+    >
       <div className="overflow">
         <a href={props.projecturl}>
           <img
