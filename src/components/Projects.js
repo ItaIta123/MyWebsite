@@ -9,6 +9,7 @@ import personalWebsite from "../ProjectsCards/projects-cards-img/personalWebsite
 import icons from "../ProjectsCards/programingIcons";
 import insta from "../ProjectsCards/projects-cards-img/insta.png";
 import businessLocator from "../ProjectsCards/projects-cards-img/businessLocator.png";
+import covid from "../ProjectsCards/projects-cards-img/covid19Ststs.png";
 
 export default class Projects extends Component {
   render() {
@@ -78,13 +79,13 @@ export default class Projects extends Component {
             }}
           >
             <Card
-              imgsrc={insta}
+              imgsrc={covid}
               projecturl="https://github.com/ItaIta123/Instagram-bot-for-buisnesses"
-              title="Marketing a business is hard, especially on social media platforms where there are tons of other businesses just like yours. InstaBot is a Python automation tool I developed using Selenium that makes your computer work for you. Using InstaBot your computer will press the like button of X number of photos you choose in any #Hash_Tag you choose and leave any comment you want it to leave. This way you will be able to increase your business page exposure by at least 30%."
-              sourceCode="https://github.com/ItaIta123/Instagram-bot-for-buisnesses"
-              icon1={icons["python"]}
-              icon2={icons["pycharm"]}
-              icon3={icons["instagram"]}
+              title="Interested in your country's Covid-19 statistical data? The number of confirmed cases? Recovered? Deaths? Check out Covid-19 Stats App! Covid-19 Stats App is an app I developed that lets you choose ANY country in the world and view its Covid-19 pandemic stats. From numbers to data visualization, all in a simple and convenient to use app."
+              sourceCode="https://github.com/ItaIta123/Covid-19-Stats-App"
+              icon1={icons["react"]}
+              icon2={icons["javascript"]}
+              icon3={icons["postman"]}
             />
             <Card
               imgsrc={personalWebsite}
@@ -104,6 +105,26 @@ export default class Projects extends Component {
               icon1={icons["python"]}
               icon2={icons["pycharm"]}
               icon3={icons["google"]}
+            />
+          </div>
+          {/* **************** ROW 3 ****************** */}
+          <div
+            className="projectsRow2"
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-around",
+              alignItems: "center",
+            }}
+          >
+            <Card
+              imgsrc={insta}
+              projecturl="https://github.com/ItaIta123/Instagram-bot-for-buisnesses"
+              title="Marketing a business is hard, especially on social media platforms where there are tons of other businesses just like yours. InstaBot is a Python automation tool I developed using Selenium that makes your computer work for you. Using InstaBot your computer will press the like button of X number of photos you choose in any #Hash_Tag you choose and leave any comment you want it to leave. This way you will be able to increase your business page exposure by at least 30%."
+              sourceCode="https://github.com/ItaIta123/Instagram-bot-for-buisnesses"
+              icon1={icons["python"]}
+              icon2={icons["pycharm"]}
+              icon3={icons["instagram"]}
             />
           </div>
         </div>
