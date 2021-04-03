@@ -18,12 +18,12 @@ let resumeData = {
       url: "https://github.com/ItaIta123",
       className: "fa fa-github",
     },
-    {
-      name: "instagram",
-      url: "https://www.instagram.com/itamar_fayler/?hl=en",
-      // To change icons just change the last word: fa-ICONNAME
-      className: "fa fa-instagram",
-    },
+    // {
+    //   name: "instagram",
+    //   url: "https://www.instagram.com/itamar_fayler/?hl=en",
+    //   // To change icons just change the last word: fa-ICONNAME
+    //   className: "fa fa-instagram",
+    // },
   ],
   aboutme:
     "My name is Itamar Fyler. I am an aspiring Software Engineer majoring in Computer Science and Economics at Yale University.  I'm cuurently exploring my interests in number of topics including Sowftware engeneering, Data Science, Machine Learning, and App Development. In addition, I am also a professional athlete, representing Yale University in the Sprint Hurdles evets.",
@@ -34,7 +34,7 @@ let resumeData = {
       specialization: "B.Sc. Computer Science and Economics •",
       MonthOfPassing: " May",
       YearOfPassing: "2023",
-      Achievements: "GPA: 3.71 (94 in 100-point GPA system)",
+      Achievements: "GPA: 3.71",
     },
     {
       UniversityName: "Relevant Classes Taken",
@@ -42,7 +42,7 @@ let resumeData = {
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements:
-        "Data Structures • Algorithms • Data Science • Data Analysis and Econometrics • Discrete Mathematics • Computer Systems • Intermediate Microeconomics.",
+        "Data Structures and Programming Techniques • Data Science • Data Analysis and Econometrics • Discrete Mathematics • Introduction to Computer Science and Computer Systems • Intermediate Microeconomics",
     },
   ],
   work: [
@@ -76,9 +76,9 @@ let resumeData = {
     {
       skillname: "JavaScript (ES10)",
     },
-    {
-      skillname: "R",
-    },
+    // {
+    //   skillname: "R",
+    // },
     {
       skillname: "C",
     },
