@@ -42,19 +42,19 @@ export default class Porfolio extends Component {
             <Card
               imgsrc={wj}
               title="World Junior Championships (Bydgoszcz 2016)"
-              text="Throughout my career, I achieved the minimum time for major international championships such as the Youth Summer Olympic Festival (2013), European Junior Championships (2015), and the World Junior Championships (2016)."
+              text="Throughout my career, I qualified for major international championships such as the Youth Summer Olympic Festival (2013), European Junior Championships (2015), and the World Junior Championships (2016)."
             />
 
             <Card
               imgsrc={BW}
               title="The 20th Maccabiah Games (Jerusalem 2017)"
-              text="I am the current Maccabiah Games record holder in the 110 meters hurdles event (14.25s.)"
+              text="I am the current Maccabiah Games record holder of the 110 meters hurdles event (14.25s.)"
             />
 
             <Card
               imgsrc={yale}
               title="Harvard-Yale-Princeton Meet (Connecticut 2020)"
-              text="Division-1 student-athlete representing Yale University in the Sprint Hurdles event."
+              text="Division-I Student-Athlete representing Yale University in the Sprint Hurdles event."
             />
           </div>
         </section>

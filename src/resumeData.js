@@ -37,22 +37,34 @@ let resumeData = {
       Achievements: "GPA: 3.71",
     },
     {
-      UniversityName: "Relevant Classes Taken",
+      UniversityName: "Herbert Scarf Fellowship",
+
+      specialization:
+        "Beliefs and Prediction Markets - Professor Philipp Strack •",
+      MonthOfPassing: " Summer",
+      YearOfPassing: "2021",
+      Achievements:
+        "Awarded the Herbert Scarf Summer Research Fellowship from Yale University's Department of Economics.",
+        
+        Achievements2 : ' "Prediction markets offer users the possibility to be on certain predefined outcomes (i.e. Biden becomes President). An interesting question is how prices in these prediction markets evolve. Answering this question can provide some insight into financial markets where it is often less clear on which events traders are betting. The main task of this project is to create a list of prediction markets on the internet and a way of automatically downloading and analyzing price data from these markets."'
+    },
+    {
+      UniversityName: "Relevant Coursework",
       specialization: "",
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements:
-        "Data Structures and Programming Techniques • Data Science • Data Analysis and Econometrics • Discrete Mathematics • Introduction to Computer Science and Computer Systems • Intermediate Microeconomics",
+        "Data Structures and Programming Techniques • Data Science • Discrete Mathematics • Introduction to Computer Science and Computer Systems • Intermediate Microeconomics",
     },
   ],
   work: [
     {
       CompanyName: "Navigation Department",
       specialization: "Sergeant Major",
-      MonthOfLeaving: "Aug",
+      MonthOfLeaving: "August",
       YearOfLeaving: "2018",
       Achievements:
-        "Trained elite units’ officers for the Officer Exams. Awarded an honorable mention from the Navigation commander for achieving 98% of the officers’ excellence in the final exam.",
+        "Trained officers of elite units for the Officer Exams. Awarded an honorable mention from the Navigation commander for achieving 98% of the officers’ excellence in the final exam.",
       Achievements2:
         "Training liaison of visiting U.S forces – facilitated shared training programs.",
     },

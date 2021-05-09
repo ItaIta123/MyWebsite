@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import icons from "../ProjectsCards/programingIcons";
+
+
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -30,6 +33,14 @@ export default class Resume extends Component {
                   <div className="row item">
                     <div className="twelve columns">
                       <h3 style={{ fontSize: 30 }}>{item.UniversityName}</h3>
+                      {item.UniversityName === "Herbert Scarf Fellowship" ? (
+                        <a href="https://economics.yale.edu/undergraduate/sro/summer-2021/beliefs-and-prediction-markets">
+                          Fellowship Website
+                        </a>
+                      ) : (
+                        <></>
+                      )}
+
                       <p className="info" style={{ color: "#232425" }}>
                         {item.specialization}
                         {/* <span>&bull;</span>{" "} */}
@@ -42,6 +53,8 @@ export default class Resume extends Component {
                       </p>
                       <p style={{ color: "#232425", fontSize: 18 }}>
                         {item.Achievements}
+                        <section></section>
+                        {item.Achievements2}
                       </p>
                     </div>
                   </div>
@@ -98,7 +111,7 @@ export default class Resume extends Component {
             <p>{resumeData.skillsDescription}</p>
 
             <div className="bars">
-              <ul className="skills">
+              {/* <ul className="skills">
                 {resumeData.skills &&
                   resumeData.skills.map((item) => {
                     return (
@@ -110,7 +123,26 @@ export default class Resume extends Component {
                       </li>
                     );
                   })}
-              </ul>
+              </ul> */}
+            </div>
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                {icons["nodejs"]}
+                {icons["mongo"]}
+                {icons["express"]}
+                {icons["postman"]}
+              </div>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                {icons["python"]}
+                {icons["react"]}
+                {icons["pycharm"]}
+              </div>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                {icons["javascript"]}
+                {icons["c"]}
+                {icons["css"]}
+                {icons["html"]}
+              </div>
             </div>
           </div>
         </div>
