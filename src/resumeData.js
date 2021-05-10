@@ -61,7 +61,7 @@ let resumeData = {
     {
       CompanyName: "Navigation Department",
       specialization: "Sergeant Major",
-      MonthOfLeaving: "August",
+      MonthOfLeaving: "2016 - ",
       YearOfLeaving: "2018",
       Achievements:
         "Trained officers of elite units for the Officer Exams. Awarded an honorable mention from the Navigation commander for achieving 98% of the officers’ excellence in the final exam.",
@@ -71,8 +71,8 @@ let resumeData = {
     {
       CompanyName: "Medical Services Center",
       specialization: "Sergeant",
-      MonthOfLeaving: "September",
-      YearOfLeaving: "2018",
+      MonthOfLeaving: "2015",
+      YearOfLeaving: "",
       Achievements:
         "Medical supply warehouse Sergeant - managed a team of 5 soldiers.",
       Achievements2:

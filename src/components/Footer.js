@@ -4,7 +4,7 @@ export default class Footer extends Component {
     let resumeData = this.props.resumeData;
     return (
       <footer>
-        <div className="row">
+        <div className="row" style={{marginTop: "2rem"}}>
           <div className="twelve columns">
             <ul className="social-links">
               {resumeData.socialLinks &&
@@ -19,7 +19,7 @@ export default class Footer extends Component {
                 })}
             </ul>
           </div>
-          <div id="go-top">
+          <div id="go-top" style={{ marginTop: "3rem"}}>
             <a className="smoothscroll" title="Back to Top" href="#home">
               <i className="icon-up-open" />
             </a>

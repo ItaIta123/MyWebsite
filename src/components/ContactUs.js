@@ -36,7 +36,7 @@ export default class ContactUs extends Component {
                 },
                 line_linked: {
                   enable: false,
-                  distance: 150,
+                  distance: 30,
                   opacity: 0.4,
                   width: 9,
                 },
