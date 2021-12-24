@@ -1,5 +1,4 @@
-## PortfolioWebsite by Itamar Fayler
-
+## PortfolioWebsite by Itamar Fayler - https://itamarfayler.com/
 ## Available Scripts
 
 In the project directory, you can run:
