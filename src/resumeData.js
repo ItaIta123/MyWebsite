@@ -34,7 +34,7 @@ let resumeData = {
       specialization: "B.Sc. Computer Science and Economics •",
       MonthOfPassing: " May",
       YearOfPassing: "2023",
-      Achievements: "GPA: 3.8",
+      Achievements: "GPA: 3.8/4.0",
     },
     {
       UniversityName: "Herbert Scarf Fellowship",
