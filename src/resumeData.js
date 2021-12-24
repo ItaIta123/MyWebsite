@@ -34,7 +34,7 @@ let resumeData = {
       specialization: "B.Sc. Computer Science and Economics •",
       MonthOfPassing: " May",
       YearOfPassing: "2023",
-      Achievements: "GPA: 3.71",
+      Achievements: "GPA: 3.8",
     },
     {
       UniversityName: "Herbert Scarf Fellowship",
@@ -54,7 +54,7 @@ let resumeData = {
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements:
-        "Data Structures and Programming Techniques • Data Science • Discrete Mathematics • Introduction to Computer Science and Computer Systems • Intermediate Microeconomics",
+        "Introduction to Computer Science and Computer Systems (CPSC 201) • Data Structures and Programming Techniques (CPSC 223) • Data Science (CPSC 123) • Discrete Mathematics (CPSC 202) • Introduction to Systems Programming and Computer Organization (CPSC 323) • Database Systems (CPSC 537)",
     },
   ],
   work: [
