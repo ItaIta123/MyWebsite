@@ -139,6 +139,30 @@ let icons = {
       </svg>
     </div>
   ),
+  webRTC: (
+    <div>
+      <img
+        alt="File:WebRTC Logo.svg"
+        src="//upload.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/750px-WebRTC_Logo.svg.png"
+        decoding="async"
+        width="100"
+        height="200"
+        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1125px-WebRTC_Logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1500px-WebRTC_Logo.svg.png 2x"
+        data-file-width="750"
+        data-file-height="140"
+      ></img>
+    </div>
+  ),
+  socket: (
+    <div>
+      <img
+        width="100"
+        height="100"
+        src="https://cdn.worldvectorlogo.com/logos/socket-io.svg"
+        alt="Socket.io logo vector"
+      ></img>
+    </div>
+  ),
   express: (
     <div>
       <svg height={80} width={80} color="white" viewBox="0 0 128 128">

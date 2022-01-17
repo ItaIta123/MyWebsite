@@ -7,7 +7,7 @@ const Card = (props) => {
       style={{ textAlign: "center", marginBottom: 20 }}
     >
       <div className="overflow">
-        <a href={props.projecturl}>
+        <a href={props.projecturl} rel="noopener noreferrer" target="_blank">
           <img
             className="cardProject-img-top"
             src={props.imgsrc}
@@ -29,7 +29,7 @@ const Card = (props) => {
           }}
         >
           {props.title}
-          <a href={props.sourceCode}>
+          <a href={props.sourceCode} rel="noopener noreferrer" target="_blank">
             <p className="sourceCode" style={{ color: "blue" }}>
               Source Code & Video
             </p>

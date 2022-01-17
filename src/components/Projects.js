@@ -3,6 +3,8 @@ import "../myLayout.css";
 import Card from "../ProjectsCards/CardProjectsUI";
 // import "../ProjectsCards/projectcards.css";
 import tracker from "../ProjectsCards/projects-cards-img/tracker.png";
+import video from "../ProjectsCards/projects-cards-img/video.png";
+import chat from "../ProjectsCards/projects-cards-img/chat.png";
 import spotify from "../ProjectsCards/projects-cards-img/spotifylyrics.png";
 import karen from "../ProjectsCards/projects-cards-img/karen.png";
 import personalWebsite from "../ProjectsCards/projects-cards-img/personalWebsite.png";
@@ -50,13 +52,15 @@ export default class Projects extends Component {
               icon5={icons["amazon"]}
             />
             <Card
-              imgsrc={spotify}
-              projecturl="https://github.com/ItaIta123/Spotify-Lyrics"
-              title="Tired of using Google to find songs lyrics? Then check out Spotify-Lyrics! Spotify-Lyrics is a Python program I developed in order to supply adequate lyric support to Spotify's app. Integrating Spotify's API with Web scraping, I developed a program that enables the user to listen to his/hers favorite playlists, songs, and artists all supported with lyrics!"
-              sourceCode="https://github.com/ItaIta123/Spotify-Lyrics"
-              icon2={icons["python"]}
-              // icon2={icons["pycharm"]}
-              icon3={icons["spotify"]}
+              imgsrc={video}
+              projecturl="https://github.com/ItaIta123/VIdeo-Call-Web-App"
+              title="Created a Video Web Application using WebRTC, Socket.io, and Simple Peer"
+              sourceCode="https://github.com/ItaIta123/VIdeo-Call-Web-App"
+              icon1={icons["webRTC"]}
+              icon2={icons["express"]}
+              icon3={icons["nodejs"]}
+              icon4={icons["react"]}
+              icon5={icons["socket"]}
             />
             <Card
               imgsrc={businessLocator}
@@ -88,23 +92,23 @@ export default class Projects extends Component {
               icon3={icons["postman"]}
             />
             <Card
-              imgsrc={personalWebsite}
-              projecturl="https://github.com/ItaIta123/MyWebsite"
-              title="In our web-oriented developing world having your own website is a must. This is why I created my own resume website using React framework. It was a challenging and very tedious process but I enjoyed every bit of it and learned a lot about the front-end world."
-              sourceCode="https://github.com/ItaIta123/MyWebsite"
-              icon1={icons["javascript"]}
-              icon2={icons["html"]}
-              icon3={icons["css"]}
-              icon6={icons["react"]}
+              imgsrc={chat}
+              projecturl="https://github.com/ItaIta123/Room-Chat-Web-App"
+              title="Created a Group Chat Web Application using Socket.io"
+              sourceCode="https://github.com/ItaIta123/Room-Chat-Web-App"
+              icon2={icons["express"]}
+              icon3={icons["nodejs"]}
+              icon4={icons["react"]}
+              icon5={icons["socket"]}
             />
             <Card
-              imgsrc={karen}
-              projecturl="https://github.com/ItaIta123/PersonalAssistant"
-              title="Created a Python program that uses voice queries, gesture-based control, and a natural-language user interface to provide information about the weather, Point(s) Of Interest, events in history, public figures and is able to calculate ETA, and send emails. Implemented Google’s different APIs such as Geocoding, Places, and Distance Matrix APIs."
-              sourceCode="https://github.com/ItaIta123/PersonalAssistant"
-              icon1={icons["python"]}
-              icon2={icons["pycharm"]}
-              icon3={icons["google"]}
+              imgsrc={spotify}
+              projecturl="https://github.com/ItaIta123/Spotify-Lyrics"
+              title="Tired of using Google to find songs lyrics? Then check out Spotify-Lyrics! Spotify-Lyrics is a Python program I developed in order to supply adequate lyric support to Spotify's app. Integrating Spotify's API with Web scraping, I developed a program that enables the user to listen to his/hers favorite playlists, songs, and artists all supported with lyrics!"
+              sourceCode="https://github.com/ItaIta123/Spotify-Lyrics"
+              icon2={icons["python"]}
+              // icon2={icons["pycharm"]}
+              icon3={icons["spotify"]}
             />
           </div>
           {/* **************** ROW 3 ****************** */}
@@ -125,6 +129,25 @@ export default class Projects extends Component {
               icon1={icons["python"]}
               icon2={icons["pycharm"]}
               icon3={icons["instagram"]}
+            />
+            <Card
+              imgsrc={karen}
+              projecturl="https://github.com/ItaIta123/PersonalAssistant"
+              title="Created a Python program that uses voice queries, gesture-based control, and a natural-language user interface to provide information about the weather, Point(s) Of Interest, events in history, public figures and is able to calculate ETA, and send emails. Implemented Google’s different APIs such as Geocoding, Places, and Distance Matrix APIs."
+              sourceCode="https://github.com/ItaIta123/PersonalAssistant"
+              icon1={icons["python"]}
+              icon2={icons["pycharm"]}
+              icon3={icons["google"]}
+            />
+            <Card
+              imgsrc={personalWebsite}
+              projecturl="https://github.com/ItaIta123/MyWebsite"
+              title="In our web-oriented developing world having your own website is a must. This is why I created my own resume website using React framework. It was a challenging and very tedious process but I enjoyed every bit of it and learned a lot about the front-end world."
+              sourceCode="https://github.com/ItaIta123/MyWebsite"
+              icon1={icons["javascript"]}
+              icon2={icons["html"]}
+              icon3={icons["css"]}
+              icon6={icons["react"]}
             />
           </div>
         </div>
