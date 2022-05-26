@@ -54,7 +54,7 @@ let resumeData = {
       MonthOfPassing: "",
       YearOfPassing: "",
       Achievements:
-        "Introduction to Computer Science and Computer Systems (CPSC 201) • Data Structures and Programming Techniques (CPSC 223) • Data Science (CPSC 123) • Discrete Mathematics (CPSC 202) • Introduction to Systems Programming and Computer Organization (CPSC 323) • Database Systems (CPSC 537)",
+        "Introduction to Computer Science and Computer Systems (CPSC 201) • Data Structures and Programming Techniques (CPSC 223) • Data Science (CPSC 123) • Discrete Mathematics (CPSC 202) • Data Exploration and Analysis (S&DS 230) • Introduction to Systems Programming and Computer Organization (CPSC 323) • Object-Oriented Programming (CPSC 327) • Algorithms (CPSC 365) • Database Systems (CPSC 537)",
     },
   ],
   work: [
