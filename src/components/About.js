@@ -42,7 +42,7 @@ export default class About extends Component {
                 majoring in Computer Science and Economics at Yale University. I
                 am currently exploring my interests in a number of topics
                 including Software Engineering, Data Science, Machine Learning,
-                and App Development. In addition, I am also a professional
+                and App Development. In addition, I am a student
                 athlete, representing Yale University in the Sprint Hurdles
                 events.
               </p>
